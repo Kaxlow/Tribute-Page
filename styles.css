@@ -1,0 +1,10 @@
+#image {
+  /*make sure the image is never wider than its container*/
+  max-width: 100%;
+  /*maintain original aspect ratio*/
+  height: auto;
+  /*change image into block element*/
+  display: block;
+  /*center image horizontally*/
+  margin: auto;
+}
