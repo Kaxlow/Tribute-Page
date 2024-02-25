@@ -2,9 +2,14 @@
   /*make sure the image is never wider than its container*/
   max-width: 100%;
   /*maintain original aspect ratio*/
-  height: auto;
+  width: 60vw;
+  height: 60vh;
   /*change image into block element*/
   display: block;
   /*center image horizontally*/
   margin: auto;
+}
+
+* {
+  background: repeating-linear-gradient(270deg, #c2ccbe, #e7ede4 12%, #ffffff 25%);
 }
