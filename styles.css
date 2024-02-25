@@ -1,15 +1,16 @@
 #image {
   /*make sure the image is never wider than its container*/
   max-width: 100%;
+  max-height: 100%
   /*maintain original aspect ratio*/
-  width: 60vw;
-  height: 60vh;
+  width: 450px;
+  height: auto;
   /*change image into block element*/
   display: block;
   /*center image horizontally*/
   margin: auto;
 }
 
-* {
-  background: repeating-linear-gradient(270deg, #c2ccbe, #e7ede4 12%, #ffffff 25%);
+#main {
+  background: linear-gradient(270deg, #c2ccbe, #e7ede4 12%, #ffffff 25%);
 }
